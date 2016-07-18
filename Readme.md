@@ -1,6 +1,6 @@
 ## Body Mass Index App
 #### Developing Data Products - Peer Assignment
-#### Author: Gustavo Adolfo Cruz, April 2016
+#### Author: Gustavo Adolfo Cruz, July 2016
 
 ### Introduction
 
@@ -28,6 +28,9 @@ For measurments in Imperial Units please use following conversions:
 
 Although BMI values are age-independent and same for both sexes for adults, the user needs to select gender, because gender is used as a selection variable in datasets that are used to provide the user some basic information about BMI.  
 Next, the user is required to select the country of origin, again in order to get some data summary and plots related to BMI data available for the selected country. If USA is selected as country of origin, the user is also required to select the state.  
+
+### User Interface
+
 In order to get the BMI coefficient, BMI clasiffication, data summary and plots related to the selected gender, country of origin, the user needs to press the **GO** button, so the main panel is populated with the available data.  
 The main panel is consist of 5 tabs:  
 

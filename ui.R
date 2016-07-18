@@ -4,7 +4,7 @@ library(datasets)
 library(ISOcodes)
 data(ISO_3166_1)
 shinyUI(pageWithSidebar(
-        headerPanel("Body Mass Index Classification in Adults loacated in the USA"),
+        headerPanel("Body Mass Index Classification in Adults [WHO data]"),
         sidebarPanel(
                 numericInput(inputId="heightM", label="Your height in cm", value= 0,min=0),
                 numericInput(inputId="weightM", label="Your weight in kg", value= 0,min=0),
@@ -18,7 +18,7 @@ shinyUI(pageWithSidebar(
                         multiple = FALSE,selected=NULL)),
                 actionButton("goButton", "Go!"),
                 br(),
-                p(strong(em("Documentation:",a("Body Mass Index Classification in Adults in tghe USA",href="README.html")))),
+                p(strong(em("Documentation:",a("Body Mass Index Classification in Adults [WHO data]",href="Readme.html")))),
                 p(strong(em("Github repository:",a("Developing Data Products - Peer Assessment Project; Shiny App",href="https://github.com/GooseCoder/DevelopingDataProducts-Final"))))
         ),
         mainPanel(
